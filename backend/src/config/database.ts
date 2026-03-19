@@ -1,11 +1,13 @@
 import { Pool } from 'pg';
 import { config } from './index';
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 export const pool = new Pool(
-  config.database.url 
-    ? { 
-        connectionString: config.database.url,
-        ssl: config.nodeEnv === 'production' ? { rejectUnauthorized: false } : false
+  process.env.DATABASE_URL
+    ? {
+        connectionString: process.env.DATABASE_URL,
+        ssl: isProduction ? { rejectUnauthorized: false } : false,
       }
     : {
         host: config.database.host,
