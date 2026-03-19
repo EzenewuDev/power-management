@@ -10,7 +10,10 @@ export interface AuthRequest extends Request {
     role: string;
     campusZoneId?: number;
   };
-  body: any; // Explicitly add body to resolve potential Express 5 type conflicts on Render
+  body: any;
+  params: any;
+  query: any;
+  app: any;
 }
 
 export const authenticate = (req: AuthRequest, res: Response, next: NextFunction) => {
