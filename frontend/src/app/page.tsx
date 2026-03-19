@@ -127,13 +127,13 @@ export default function Home() {
             <div className="relative lg:block">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white group aspect-[4/3]">
                 <Image 
-                  src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?auto=format&fit=crop&q=80&w=1200" 
+                  src="/images/senate.jpg" 
                   alt="Lead City University Senate Building" 
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                   priority
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
-                  quality={90}
+                  quality={100}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8 text-white">
@@ -229,7 +229,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="relative h-64 rounded-3xl overflow-hidden shadow-xl">
                   <Image 
-                    src="https://images.unsplash.com/photo-1592288333363-ad2f42954c41?auto=format&fit=crop&q=80&w=600" 
+                    src="/images/lcu-gate.jpg" 
                     alt="Lead City University Main Gate" 
                     fill
                     className="object-cover"
