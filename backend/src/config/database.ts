@@ -1,13 +1,20 @@
 import { Pool } from 'pg';
 import { config } from './index';
 
-export const pool = new Pool({
-  host: config.database.host,
-  port: config.database.port,
-  database: config.database.name,
-  user: config.database.user,
-  password: config.database.password,
-});
+export const pool = new Pool(
+  config.database.url 
+    ? { 
+        connectionString: config.database.url,
+        ssl: config.nodeEnv === 'production' ? { rejectUnauthorized: false } : false
+      }
+    : {
+        host: config.database.host,
+        port: config.database.port,
+        database: config.database.name,
+        user: config.database.user,
+        password: config.database.password,
+      }
+);
 
 export const initializeDatabase = async () => {
   try {
