@@ -94,9 +94,9 @@ export default function SignupPage() {
       <div className="relative z-10 w-full max-w-xl animate-in fade-in slide-in-from-bottom-4 duration-700">
         <div className="bg-white/10 backdrop-blur-2xl rounded-[3rem] p-8 sm:p-12 border border-white/20 shadow-2xl">
           <div className="text-center mb-10">
-            <div className="inline-flex items-center justify-center bg-blue-600 p-4 rounded-3xl shadow-xl shadow-blue-500/20 mb-6">
+            <Link href="/" className="inline-flex items-center justify-center bg-blue-600 p-4 rounded-3xl shadow-xl shadow-blue-500/20 mb-6 hover:scale-105 transition-transform active:scale-95">
               <ShieldCheck className="h-8 w-8 text-white" />
-            </div>
+            </Link>
             <h1 className="text-3xl font-black text-white tracking-tight mb-2">Join LCU Power</h1>
             <p className="text-blue-100 font-bold opacity-70">Create your verified student account</p>
           </div>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "LCU POWER | Lead City University",
   description: "Official Electricity Outage Prediction and Monitoring System for Lead City University",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.svg",
   }
 };
 

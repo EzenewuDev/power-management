@@ -57,9 +57,9 @@ export default function LoginPage() {
       <div className="relative z-10 w-full max-w-md animate-in fade-in zoom-in duration-500">
         <div className="bg-white/10 backdrop-blur-2xl rounded-[2.5rem] p-8 sm:p-12 border border-white/20 shadow-2xl">
           <div className="text-center mb-10">
-            <div className="inline-flex items-center justify-center bg-indigo-600 p-4 rounded-3xl shadow-xl shadow-indigo-500/20 mb-6">
+            <Link href="/" className="inline-flex items-center justify-center bg-indigo-600 p-4 rounded-3xl shadow-xl shadow-indigo-500/20 mb-6 hover:scale-105 transition-transform active:scale-95">
               <Zap className="h-8 w-8 text-white" />
-            </div>
+            </Link>
             <h1 className="text-3xl font-black text-white tracking-tight mb-2">Welcome Back</h1>
             <p className="text-indigo-100 font-bold opacity-70">Log in to LCU Power Monitor</p>
           </div>
