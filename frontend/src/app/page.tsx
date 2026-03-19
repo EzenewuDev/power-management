@@ -127,7 +127,7 @@ export default function Home() {
             <div className="relative lg:block">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white group aspect-[4/3]">
                 <Image 
-                  src="https://lh3.googleusercontent.com/p/AF1QipM5XW-O_jXWJ_8n1R7x-L_k7L_o_H_y_Y_Y_Y_Y=s1360-w1360-h1020" 
+                  src="https://images.unsplash.com/photo-1541339907198-e08756ebafe3?auto=format&fit=crop&q=80&w=1200" 
                   alt="Lead City University Senate Building" 
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -229,7 +229,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="relative h-64 rounded-3xl overflow-hidden shadow-xl">
                   <Image 
-                    src="https://lh3.googleusercontent.com/p/AF1QipN_W-O_jXWJ_8n1R7x-L_k7L_o_H_y_Y_Y_Y_Y=s1360-w1360-h1020" 
+                    src="https://images.unsplash.com/photo-1592288333363-ad2f42954c41?auto=format&fit=crop&q=80&w=600" 
                     alt="Lead City University Main Gate" 
                     fill
                     className="object-cover"
@@ -239,7 +239,7 @@ export default function Home() {
                 </div>
                 <div className="relative h-64 rounded-3xl overflow-hidden shadow-xl mt-12">
                   <Image 
-                    src="https://lh3.googleusercontent.com/p/AF1QipN9_8n1R7x-L_k7L_o_H_y_Y_Y_Y_Y_Y=s1360-w1360-h1020" 
+                    src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=600" 
                     alt="LCU Graduation Students" 
                     fill
                     className="object-cover"
