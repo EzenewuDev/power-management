@@ -1,7 +1,7 @@
 'use client';
 
 import Sidebar from '@/components/Sidebar';
-import { History, Zap, Shield, Search, Filter, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { History, Search, Filter, ArrowUpRight, ArrowDownRight } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import Loader from '@/components/Loader';
 

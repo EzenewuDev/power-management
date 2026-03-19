@@ -1,7 +1,7 @@
 'use client';
 
 import Sidebar from '@/components/Sidebar';
-import { Bell, Shield, Info, AlertTriangle, CheckCircle2, Search, Settings } from 'lucide-react';
+import { Bell, Shield, Info, AlertTriangle, CheckCircle2, Settings } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import Loader from '@/components/Loader';
 

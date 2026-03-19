@@ -1,7 +1,7 @@
 'use client';
 
 import Sidebar from '@/components/Sidebar';
-import { User, Shield, Mail, GraduationCap, MapPin, Search, Edit2, Zap } from 'lucide-react';
+import { User, Shield, Mail, GraduationCap, MapPin, Edit2, Zap } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import Loader from '@/components/Loader';
 

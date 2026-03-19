@@ -1,7 +1,7 @@
 'use client';
 
 import Sidebar from '@/components/Sidebar';
-import { BarChart3, TrendingUp, Zap, ZapOff, BatteryCharging, Calendar, Clock } from 'lucide-react';
+import { BarChart3, TrendingUp, Zap, ZapOff, BatteryCharging } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import Loader from '@/components/Loader';
 

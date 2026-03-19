@@ -1,7 +1,7 @@
 'use client';
 
 import Sidebar from '@/components/Sidebar';
-import { HelpCircle, Search, MessageCircle, FileText, ExternalLink, Zap, Shield, BookOpen } from 'lucide-react';
+import { HelpCircle, Search, MessageCircle, ExternalLink, Zap, Shield, BookOpen } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import Loader from '@/components/Loader';
 
