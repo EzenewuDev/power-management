@@ -109,8 +109,8 @@ export default function SignupPage() {
               </div>
             )}
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="space-y-2">
+            {/* Account Type - Full Width */}
+            <div className="space-y-2">
               <label className="text-[10px] font-black text-blue-300 uppercase tracking-[0.2em] ml-1">Account Type</label>
               <select
                 name="role"
@@ -124,7 +124,9 @@ export default function SignupPage() {
               </select>
             </div>
 
-            <div className="relative group">
+            {/* Names - Two Columns */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="relative group">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <User className="h-5 w-5 text-blue-300 group-focus-within:text-white transition-colors" />
                 </div>
@@ -154,6 +156,7 @@ export default function SignupPage() {
               </div>
             </div>
 
+            {/* Email - Full Width */}
             <div className="relative group">
               <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                 <Mail className="h-5 w-5 text-blue-300 group-focus-within:text-white transition-colors" />
