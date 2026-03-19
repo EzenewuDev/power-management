@@ -14,6 +14,7 @@ export interface AuthRequest extends Request {
   params: any;
   query: any;
   app: any;
+  headers: any;
 }
 
 export const authenticate = (req: AuthRequest, res: Response, next: NextFunction) => {
